@@ -7,7 +7,7 @@ if ('serviceWorker' in navigator) {
 }
 
 
-const map = L.map('map').setView([-23.555298, -46.635319], 2); // instaciação do mapa
+const map = L.map('map').setView([-23.555298, -46.635319], 4); // instaciação do mapa
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
