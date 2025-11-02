@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then(registration =>
+    navigator.serviceWorker.register('./sw.js').then(registration =>
         console.log("--- SW REGISTADO ---")
     ).catch(error =>
         console.error("--- ERRO AO REGISTRAR O SW ---")
